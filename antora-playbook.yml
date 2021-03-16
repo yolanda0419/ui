@@ -1,0 +1,16 @@
+site:
+  title: Antora Simple PDF Example
+  start_page: PSP_Installation_Deployment_Manual::home.adoc
+content:
+  sources:
+  - url: ./
+    start_paths: documents/docs/*
+    branches: HEAD
+
+
+ui:
+  bundle:
+    url: ui-bundle.zip
+
+        
+#      suspendServer: true
